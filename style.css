@@ -87,7 +87,7 @@ a:focus-visible {
 }
 
 .hero {
-  padding: 60px 0;
+  padding: 80px 0;
   background-color: #f1f1f1;
 }
 
@@ -101,14 +101,15 @@ a:focus-visible {
 .image {
   flex: 1;
   min-width: 0;
+  padding: 24px;
 }
 
 .content {
-  padding: 152.5px 0;
+  min-height: 267px;
 }
 
 .image {
-  padding: 267.5px 0;
+  min-height: 520px;
 }
 
 .section {
@@ -120,7 +121,7 @@ a:focus-visible {
 }
 
 .title {
-  width: 750px;
+  width: 600px;
   max-width: 100%;
   margin: 0 auto 40px;
   padding: 27px 0;
@@ -138,11 +139,13 @@ a:focus-visible {
 
 .item {
   min-width: 0;
-  padding: 187.5px 0;
+  min-height: 300px;
+  padding: 24px;
 }
 
 .items-three .item {
   flex: 0 0 calc((100% - 60px) / 3);
+  min-height: 420px;
 }
 
 .items-five .item {
@@ -187,7 +190,7 @@ a:focus-visible {
   }
 
   .image {
-    padding: 187.5px 0;
+    min-height: 400px;
   }
 
   .section {
@@ -196,7 +199,7 @@ a:focus-visible {
 
   .items .item {
     flex-basis: calc((100% - 30px) / 2);
-    padding: 127.5px 0;
+    min-height: 280px;
   }
 }
 
